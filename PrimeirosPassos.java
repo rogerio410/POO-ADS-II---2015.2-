@@ -14,7 +14,9 @@ public class PrimeirosPassos {
 		boolean passou = false;
 		int idade = 17;
 		String sexo = "M";
-		
+
+
+		System.out.println("Hello " + nome + "idade " + idade);		
 		
 		//Se maior entra senao sai
 //		if (idade < 18){
@@ -25,24 +27,24 @@ public class PrimeirosPassos {
 		
 		
 		//Exibir 10 PArabens.
-//		for(int i = 0; i < 10; i++){
-//			System.out.println("Parabens!!!: No. " + (i+1));
-//		}
+		for(int i = 0; (i < 10 && i != 4); i+=4){
+			System.out.println("Parabens!!!: No. " + (i+1));
+		}
 		
 		//Entrando qtd 13.
-//		int qtd = 0;
-//		while(qtd < 13){
-//			
-//			qtd++;
-//			System.out.println("Aprovado!!! No." + qtd);
-//		}
+		int qtd = 0;
+		while(qtd < 13){
+			
+			qtd++;
+			System.out.println("Aprovado!!! No." + qtd);
+		}
 			
 		//Se MENOR e Homem pode entrar...senao vai para casa.
-//		if (idade < 18 && sexo == "M") {
-//			System.out.println("Pode entrar");
-//		}else{
-//			System.out.println("Vai para casa");
-//		}
+		if (idade < 18 && sexo == "M") {
+			System.out.println("Pode entrar");
+		}else{
+			System.out.println("Vai para casa");
+		}
 		
 		
 		String teste = (idade > 18) ? "Sim" : "Nao";
@@ -57,7 +59,7 @@ public class PrimeirosPassos {
 		for(int i : numeros){
 			System.out.println(i);
 		}
-		
+
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Digite sua idade: ");
 		idade = scanner.nextInt();
@@ -70,8 +72,8 @@ public class PrimeirosPassos {
 		System.out.println("Nome Digitado: " + n);
 		System.out.println("Idade Digitada: " + idade);
 		
-//		String n2 = JOptionPane.showInputDialog("Digite seu nome: ");
-//		JOptionPane.showMessageDialog(null, n2);
+		String n2 = JOptionPane.showInputDialog("Digite seu nome: ");
+		JOptionPane.showMessageDialog(null, n2);
 //		
 		
 		
